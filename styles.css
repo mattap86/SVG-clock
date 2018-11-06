@@ -1,0 +1,272 @@
+body {
+    background-color: #8fbc8f;
+    background-size: cover;
+    z-index: -1;
+}
+
+.clock {
+    width: 500px;
+    margin: 0 auto;
+    padding: 150px;
+}
+
+.hands {
+    transform-origin: center;
+}
+
+@keyframes clockHand {
+
+    100% {transform: rotate(360deg);}
+}
+
+#secondHand {
+    animation: clockHand 60s steps(60) infinite;
+}
+
+#minuteHand {
+    animation: clockHand 3600s steps(60) infinite;
+}
+
+#hourHand {
+    animation: clockHand 43200s linear infinite;
+}
+
+text {
+    transform-origin: center;
+}
+
+text:nth-child(2) {
+    transform: rotate(30deg);
+}
+
+text:nth-child(3) {
+    transform: rotate(calc(2*30deg));
+}
+
+text:nth-child(4) {
+    transform: rotate(calc(3*30deg));
+}
+
+text:nth-child(5) {
+    transform: rotate(calc(4*30deg));
+}
+
+text:nth-child(6) {
+    transform: rotate(calc(5*30deg));
+}
+
+text:nth-child(7) {
+    transform: rotate(calc(6*30deg));
+}
+
+text:nth-child(8) {
+    transform: rotate(calc(7*30deg));
+}
+
+text:nth-child(9) {
+    transform: rotate(calc(8*30deg));
+}
+
+text:nth-child(10) {
+    transform: rotate(calc(9*30deg));
+}
+
+text:nth-child(11) {
+    transform: rotate(calc(10*30deg));
+}
+
+text:nth-child(12) {
+    transform: rotate(calc(11*30deg));
+}
+
+text:nth-child(13) {
+    transform: rotate(6deg);
+}
+
+text:nth-child(14) {
+    transform: rotate(calc(2*6deg));
+}
+
+text:nth-child(15) {
+    transform: rotate(calc(3*6deg));
+}
+
+text:nth-child(16) {
+    transform: rotate(calc(4*6deg));
+}
+
+text:nth-child(17) {
+    transform: rotate(calc(6*6deg));
+}
+
+text:nth-child(18) {
+    transform: rotate(calc(7*6deg));
+}
+
+text:nth-child(19) {
+    transform: rotate(calc(8*6deg));
+}
+
+text:nth-child(20) {
+    transform: rotate(calc(9*6deg));
+}
+
+text:nth-child(21) {
+    transform: rotate(calc(11*6deg));
+}
+
+text:nth-child(22) {
+    transform: rotate(calc(12*6deg));
+}
+
+text:nth-child(23) {
+    transform: rotate(calc(13*6deg));
+}
+
+text:nth-child(24) {
+    transform: rotate(calc(14*6deg));
+}
+
+text:nth-child(25) {
+    transform: rotate(calc(16*6deg));
+}
+
+text:nth-child(26) {
+    transform: rotate(calc(17*6deg));
+}
+
+text:nth-child(27) {
+    transform: rotate(calc(18*6deg));
+}
+
+text:nth-child(28) {
+    transform: rotate(calc(19*6deg));
+}
+
+text:nth-child(29) {
+    transform: rotate(calc(21*6deg));
+}
+
+text:nth-child(30) {
+    transform: rotate(calc(22*6deg));
+}
+
+text:nth-child(31) {
+    transform: rotate(calc(23*6deg));
+}
+
+text:nth-child(32) {
+    transform: rotate(calc(24*6deg));
+}
+
+text:nth-child(33) {
+    transform: rotate(calc(26*6deg));
+}
+
+text:nth-child(34) {
+    transform: rotate(calc(27*6deg));
+}
+
+text:nth-child(35) {
+    transform: rotate(calc(28*6deg));
+}
+
+text:nth-child(36) {
+    transform: rotate(calc(29*6deg));
+}
+
+text:nth-child(37) {
+    transform: rotate(-6deg);
+}
+
+text:nth-child(38) {
+    transform: rotate(calc(2*(-6deg)));
+}
+
+text:nth-child(39) {
+    transform: rotate(calc(3*(-6deg)));
+}
+
+text:nth-child(40) {
+    transform: rotate(calc(4*(-6deg)));
+}
+
+text:nth-child(41) {
+    transform: rotate(calc(6*(-6deg)));
+}
+
+text:nth-child(42) {
+    transform: rotate(calc(7*(-6deg)));
+}
+
+text:nth-child(43) {
+    transform: rotate(calc(8*(-6deg)));
+}
+
+text:nth-child(44) {
+    transform: rotate(calc(9*(-6deg)));
+}
+
+text:nth-child(45) {
+    transform: rotate(calc(11*(-6deg)));
+}
+
+text:nth-child(46) {
+    transform: rotate(calc(12*(-6deg)));
+}
+
+text:nth-child(47) {
+    transform: rotate(calc(13*(-6deg)));
+}
+
+text:nth-child(48) {
+    transform: rotate(calc(14*(-6deg)));
+}
+
+text:nth-child(49) {
+    transform: rotate(calc(16*(-6deg)));
+}
+
+text:nth-child(50) {
+    transform: rotate(calc(17*(-6deg)));
+}
+
+text:nth-child(51) {
+    transform: rotate(calc(18*(-6deg)));
+}
+
+text:nth-child(52) {
+    transform: rotate(calc(19*(-6deg)));
+}
+
+text:nth-child(53) {
+    transform: rotate(calc(21*(-6deg)));
+}
+
+text:nth-child(54) {
+    transform: rotate(calc(22*(-6deg)));
+}
+
+text:nth-child(55) {
+    transform: rotate(calc(23*(-6deg)));
+}
+
+text:nth-child(56) {
+    transform: rotate(calc(24*(-6deg)));
+}
+
+text:nth-child(57) {
+    transform: rotate(calc(26*(-6deg)));
+}
+
+text:nth-child(58) {
+    transform: rotate(calc(27*(-6deg)));
+}
+
+text:nth-child(59) {
+    transform: rotate(calc(28*(-6deg)));
+}
+
+text:nth-child(60) {
+    transform: rotate(calc(29*(-6deg)));
+}
